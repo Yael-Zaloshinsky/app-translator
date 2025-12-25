@@ -5,6 +5,6 @@ RUN npm config set strict-ssl false
 RUN npm install
 COPY . .
 EXPOSE 3001
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
 
 
